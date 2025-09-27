@@ -26,7 +26,7 @@ else:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React dev server
+    allow_origins=["http://localhost:3000" , "https://kachra-setu2.onrender.com/"],  # React dev server
     allow_credentials=True,
     allow_methods=["*"],   # allow POST, GET, OPTIONS, etc.
     allow_headers=["*"],   # allow Content-Type, Authorization, etc.
